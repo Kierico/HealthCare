@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context=".CadastrarMeta">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/bluedark"
+        android:padding="1dp"
+        android:src="@drawable/healthcare" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:shadowColor="@color/pinkdark"
+            android:shadowDx="-3"
+            android:shadowDy="5"
+            android:shadowRadius="3"
+            android:text="Cadastre suas"
+            android:textColor="@color/pinklight"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingLeft="2dp"
+            android:shadowColor="@color/pinkdark"
+            android:shadowDx="-3"
+            android:shadowDy="10"
+            android:shadowRadius="3"
+            android:text="Metas"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/pinklight"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/cadastrar_metas_Title"
+        android:textColor="@color/pinklight"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonGanhar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/cadastrar_metas_radioButtonTitleGanhar"
+            android:textColor="@color/pinklight"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_yellowlight"
+                    android:ems="10"
+                    android:hint="@string/cadastrar_metas_pesoAtual"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextText4"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_yellowlight"
+                    android:ems="10"
+                    android:hint="@string/cadastrar_metas_desejado"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/editTextText5"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rounded_yellowlight"
+                    android:ems="10"
+                    android:hint="@string/cadastrar_metas_emQuantoTempo"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonPerder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/cadastrar_metas_radioButtonTitlePerder"
+            android:textColor="@color/pinklight"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_yellowlight"
+                    android:ems="10"
+                    android:hint="@string/cadastrar_metas_pesoAtual"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextText7"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_yellowlight"
+                    android:ems="10"
+                    android:hint="@string/cadastrar_metas_desejado"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/editTextText8"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rounded_yellowlight"
+                    android:ems="10"
+                    android:hint="@string/cadastrar_metas_emQuantoTempo"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/pinklight"
+        android:minWidth="210dip"
+        android:text="@string/cadastrar_metas_ButtonAvancar"
+        android:textSize="18sp" />
+
+</LinearLayout>

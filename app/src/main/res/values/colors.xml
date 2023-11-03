@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- HealthCare -->
+    <color name="yellowlight">#FFF5F6DB</color>
+    <color name="bluelight">#FFBAE1F4</color>
+    <color name="blue">#FF66BEEB</color>
+    <color name="bluedark">#FF36B4F1</color>
+    <color name="pinklight">#FFEF7DAD</color>
+    <color name="pinkdark">#FFD7367F</color>
+
+</resources>

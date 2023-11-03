@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+
+    <!-- HEALTHCARE -->
+    <!-- Tela de Login -->
+    <string name="login_Title">Login</string>
+    <string name="login_user">Usuário</string>
+    <string name="login_password">Senha</string>
+    <string name="login_buttonEntrar">Entrar</string>
+    <string name="login_buttonCadastrar">Cadastre-se</string>
+    <string name="login_buttonRedefinirSenha">Esqueci a senha</string>
+
+        <!-- Toast -->
+        <string name="activity_main_falha_autenticacao">Usuário ou senha incorreta</string>
+
+    <!-- Tela de Cadastrar Metas -->
+    <string name="cadastrar_metas_Title">Qual o seu objetivo?</string>
+    <string name="cadastrar_metas_radioButtonTitleGanhar">Ganhar peso:</string>
+    <string name="cadastrar_metas_pesoAtual">Peso atual</string>
+    <string name="cadastrar_metas_desejado">Peso desejado</string>
+    <string name="cadastrar_metas_emQuantoTempo">Em quanto tempo?</string>
+    <string name="cadastrar_metas_radioButtonTitlePerder">Perder peso:</string>
+    <string name="cadastrar_metas_ButtonAvancar">Avançar</string>
+
+</resources>
