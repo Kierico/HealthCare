@@ -18,11 +18,12 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:orientation="vertical">
 
+        <!-- Texto: Cadastre suas metas
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -53,7 +54,13 @@
             android:textColor="@color/pinklight"
             android:textSize="48sp"
             android:textStyle="bold" />
+        -->
 
+        <ImageView
+            android:id="@+id/imageViewCadastreMetas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cadastre_suas_metas"/>
     </LinearLayout>
 
     <TextView
@@ -73,7 +80,7 @@
         android:padding="10dp">
 
         <RadioButton
-            android:id="@+id/radioButtonGanhar"
+            android:id="@+id/radioButtonMetaGanhar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="false"
@@ -92,7 +99,7 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editText3"
+                    android:id="@+id/editTextMetaGanharPesoAtual"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -105,7 +112,7 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/editTextText4"
+                    android:id="@+id/editTextMetaGanharPesoDesejado"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -123,7 +130,7 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editTextText5"
+                    android:id="@+id/editTextMetaGanharQuantoTempo"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -144,7 +151,7 @@
         android:padding="10dp">
 
         <RadioButton
-            android:id="@+id/radioButtonPerder"
+            android:id="@+id/radioButtonMetaPerder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="false"
@@ -163,7 +170,7 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editText6"
+                    android:id="@+id/editTextMetaPerderPesoAtual"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -176,7 +183,7 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/editTextText7"
+                    android:id="@+id/editTextMetaPerderPesoDesejado"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -194,7 +201,7 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editTextText8"
+                    android:id="@+id/editTextMetaPerderQuantoTempo"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -214,7 +221,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="@color/pinklight"
         android:minWidth="210dip"
         android:text="@string/cadastrar_metas_ButtonAvancar"

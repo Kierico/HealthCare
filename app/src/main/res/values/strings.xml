@@ -10,8 +10,8 @@
     <string name="login_buttonCadastrar">Cadastre-se</string>
     <string name="login_buttonRedefinirSenha">Esqueci a senha</string>
 
-        <!-- Toast -->
-        <string name="activity_main_falha_autenticacao">Usuário ou senha incorreta</string>
+    <!-- Toast -->
+    <string name="activity_main_falha_autenticacao">Usuário ou senha incorreta</string>
 
     <!-- Tela de Cadastrar Metas -->
     <string name="cadastrar_metas_Title">Qual o seu objetivo?</string>

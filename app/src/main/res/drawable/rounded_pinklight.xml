@@ -8,5 +8,5 @@
     <!-- <stroke android:width="2dp" android:color="#ccc" /> -->
 
     <!--- This is the background color -->
-    <solid android:color="@color/yellowlight" />
+    <solid android:color="@color/pinklight" />
 </shape>
