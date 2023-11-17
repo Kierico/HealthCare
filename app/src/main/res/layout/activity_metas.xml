@@ -465,7 +465,7 @@
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="55dp"
+        android:layout_width="57dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:backgroundTint="@color/pinklight"

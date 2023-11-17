@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+
+    <TextView
+        android:id="@+id/oquequerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O que quer adicionar?"
+        android:paddingBottom="12dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/caloriasButton"
+            android:background="@color/white"
+            android:paddingTop="12dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/calorias" />
+
+        <ImageButton
+            android:id="@+id/hidrataButton"
+            android:background="@color/white"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/hidratacao" />
+
+        <ImageButton
+            android:id="@+id/metasButton"
+            android:background="@color/white"
+            android:paddingTop="7dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/metas" />
+
+    </LinearLayout>
+</LinearLayout>
