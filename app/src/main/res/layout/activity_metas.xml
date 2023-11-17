@@ -31,9 +31,9 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/buttonDom"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/buttonDomAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
@@ -45,9 +45,9 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/buttonSeg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/buttonSegAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
@@ -59,9 +59,9 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/buttonTer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/buttonTerAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
@@ -73,9 +73,9 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/buttonQua"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/buttonQuaAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
@@ -87,9 +87,9 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/buttonQui"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/buttonQuiAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
@@ -101,9 +101,9 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/buttonSex"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/buttonSexAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
@@ -115,9 +115,9 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/buttonSab"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/buttonSabAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
@@ -360,7 +360,7 @@
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/textViewMetaPesoIdeal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Peso Ideal"
@@ -369,7 +369,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textViewMetaContadorPesoIdeal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -387,7 +387,7 @@
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/textView10"
+                    android:id="@+id/textViewMetaPesoAtual"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Peso Atual"
@@ -396,7 +396,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView11"
+                    android:id="@+id/textViewMetaContadorPesoAtual"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -430,7 +430,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/textViewMetaContadorAlcanceMeta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -464,7 +464,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/buttonAddMeta"
         android:layout_width="55dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
