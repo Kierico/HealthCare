@@ -177,10 +177,12 @@
             android:layout_height="55dp"
             android:layout_gravity="center"
             android:layout_marginBottom="70dp"
-            android:backgroundTint="@color/pinklight"
             android:text="Adicionar"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/pinklight" />
 
     </LinearLayout>
 

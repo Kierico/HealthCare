@@ -284,12 +284,12 @@
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/pinklight"
-        android:shadowColor="@color/shadow"
-        android:shadowDy="7"
+        android:layout_marginTop="30dp"
         android:text="Adicionar outra refeição"
-        android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/pinklight" />
 
 </LinearLayout>

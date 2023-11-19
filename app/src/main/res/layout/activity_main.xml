@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:background="@drawable/rounded_yellowlight"
+        android:background="@drawable/rounded_card"
         android:ems="10"
         android:hint="@string/login_user"
         android:inputType="text"
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:background="@drawable/rounded_yellowlight"
+        android:background="@drawable/rounded_card"
         android:ems="10"
         android:hint="@string/login_password"
         android:inputType="text"
@@ -86,5 +86,7 @@
         android:backgroundTint="@color/pinklight"
         android:minWidth="210dip"
         android:text="@string/login_buttonEntrar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
         android:textSize="18sp" />
 </LinearLayout>
