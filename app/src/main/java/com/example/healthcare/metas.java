@@ -27,7 +27,7 @@ public class metas extends AppCompatActivity {
         setContentView(R.layout.activity_metas);
         //Ocultar barra de Navegação
         decorView = getWindow().getDecorView();
-        addButton = findViewById(R.id.button12);
+        addButton = findViewById(R.id.buttonAddMeta);
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
