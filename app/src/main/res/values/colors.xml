@@ -11,5 +11,6 @@
     <color name="pinklight">#FFEF7DAD</color>
     <color name="pinkdark">#FFD7367F</color>
     <color name="green">#FF639B61</color>
+    <color name="shadow">#CABBBBBB</color>
 
 </resources>

@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bluelight"
     android:orientation="vertical"
-    tools:context=".CadastrarMeta">
+    tools:context=".AddMetas">
 
     <ImageView
         android:id="@+id/imageView"
@@ -17,60 +16,131 @@
         android:src="@drawable/healthcare" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDomAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"
+            android:padding="7dp"
+            android:text="Dom"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSegAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:text="Seg"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonTerAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:text="Ter"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonQuaAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:text="Qua"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonQuiAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:text="Qui"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSexAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:text="Sex"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSabAddCalorias"
+            android:layout_width="45dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:padding="7dp"
+            android:text="Sáb"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
         android:orientation="vertical">
 
-        <!-- Texto: Cadastre suas metas
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingLeft="2dp"
-            android:shadowColor="@color/pinkdark"
-            android:shadowDx="-3"
-            android:shadowDy="5"
-            android:shadowRadius="3"
-            android:text="Cadastre suas"
-            android:textColor="@color/pinklight"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:paddingLeft="2dp"
-            android:shadowColor="@color/pinkdark"
-            android:shadowDx="-3"
-            android:shadowDy="10"
-            android:shadowRadius="3"
-            android:text="Metas"
-            android:textAlignment="textStart"
-            android:textAllCaps="false"
-            android:textColor="@color/pinklight"
-            android:textSize="48sp"
-            android:textStyle="bold" />
-        -->
-
         <ImageView
-            android:id="@+id/imageViewCadastreMetas"
+            android:id="@+id/imageViewAddMetas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/cadastre_suas_metas" />
+            android:src="@drawable/metas" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewQualObjetivoAddMetas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/cadastrar_metas_Title"
-        android:textColor="@color/pinklight"
-        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -80,12 +150,12 @@
         android:padding="10dp">
 
         <RadioButton
-            android:id="@+id/radioButtonMetaGanhar"
+            android:id="@+id/radioButtonGanharPesoAddMetas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="@string/cadastrar_metas_radioButtonTitleGanhar"
-            android:textColor="@color/pinklight"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -99,7 +169,7 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editTextMetaGanharPesoAtual"
+                    android:id="@+id/editTextPesoAtualGanharPesoAddMetas"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -112,7 +182,7 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/editTextMetaGanharPesoDesejado"
+                    android:id="@+id/editTextPesoDesejadoGanharPesoAddMetas"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -130,7 +200,7 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editTextMetaGanharQuantoTempo"
+                    android:id="@+id/editTextQuantoTempoGanharPesoAddMetas"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -152,12 +222,12 @@
         android:padding="10dp">
 
         <RadioButton
-            android:id="@+id/radioButtonMetaPerder"
+            android:id="@+id/radioButtonPerderPesoAddMetas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="@string/cadastrar_metas_radioButtonTitlePerder"
-            android:textColor="@color/pinklight"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -171,7 +241,7 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editTextMetaPerderPesoAtual"
+                    android:id="@+id/editTextPesoAtualPerderPesoAddMetas"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -184,7 +254,7 @@
                     android:textSize="16sp" />
 
                 <EditText
-                    android:id="@+id/editTextMetaPerderPesoDesejado"
+                    android:id="@+id/editTextPesoDesejadoPerderPesoAddMetas"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -202,7 +272,7 @@
                 android:layout_height="match_parent">
 
                 <EditText
-                    android:id="@+id/editTextMetaPerderQuantoTempo"
+                    android:id="@+id/editTextQuantoTempoPerderPesoAddMetas"
                     android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -218,16 +288,16 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonAvancarAddMetas"
         android:layout_width="wrap_content"
         android:layout_height="55dp"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:backgroundTint="@color/pinklight"
+        android:layout_marginTop="10dp"
         android:minWidth="210dip"
         android:text="@string/cadastrar_metas_ButtonAvancar"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        app:backgroundTint="@color/pinklight" />
 
 </LinearLayout>
