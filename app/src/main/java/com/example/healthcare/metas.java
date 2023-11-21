@@ -3,6 +3,7 @@ package com.example.healthcare;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -53,7 +54,7 @@ public class metas extends AppCompatActivity {
             public void onClick(View v) {
 
                 // Fazer redirecionamento para página depois
-                Toast.makeText(metas.this, "Calorias", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(metas.this, AddCalorias.class));
             }
         });
 
@@ -62,7 +63,7 @@ public class metas extends AppCompatActivity {
             public void onClick(View v) {
 
                 // Fazer redirecionamento para página depois
-                Toast.makeText(metas.this, "Hidratação", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(metas.this, AddHidratacao.class));
             }
         });
 
@@ -71,7 +72,7 @@ public class metas extends AppCompatActivity {
             public void onClick(View v) {
 
                 // Fazer redirecionamento para página depois
-                Toast.makeText(metas.this, "Metas", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(metas.this, AddMetas.class));
             }
         });
 
