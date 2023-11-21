@@ -21,5 +21,6 @@
     <string name="cadastrar_metas_emQuantoTempo">Em quanto tempo?</string>
     <string name="cadastrar_metas_radioButtonTitlePerder">Perder peso:</string>
     <string name="cadastrar_metas_ButtonAvancar">Avançar</string>
+    <string name="cadastrar_metas_Altura" />
 
 </resources>

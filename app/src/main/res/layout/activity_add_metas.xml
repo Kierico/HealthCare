@@ -210,6 +210,18 @@
                     android:inputType="text"
                     android:padding="10dp"
                     android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextMetaGanharAltura"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rounded_card"
+                    android:ems="10"
+                    android:hint="Altura"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
             </TableRow>
 
         </TableLayout>
@@ -282,6 +294,19 @@
                     android:inputType="text"
                     android:padding="10dp"
                     android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editTextMetaPerderAltura"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rounded_card"
+                    android:ems="10"
+                    android:hint="Altura"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="16sp" />
+
             </TableRow>
 
         </TableLayout>
