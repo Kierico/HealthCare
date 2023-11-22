@@ -18,9 +18,9 @@
     <string name="cadastrar_metas_radioButtonTitleGanhar">Ganhar peso:</string>
     <string name="cadastrar_metas_pesoAtual">Peso atual</string>
     <string name="cadastrar_metas_desejado">Peso desejado</string>
-    <string name="cadastrar_metas_emQuantoTempo">Em quanto tempo?</string>
+    <string name="cadastrar_metas_emQuantoTempo">Idade</string>
     <string name="cadastrar_metas_radioButtonTitlePerder">Perder peso:</string>
-    <string name="cadastrar_metas_ButtonAvancar">Avançar</string>
+    <string name="cadastrar_metas_ButtonAvancar">Salvar</string>
     <string name="cadastrar_metas_Altura" />
 
 </resources>

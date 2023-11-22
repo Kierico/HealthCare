@@ -167,7 +167,7 @@
                 android:background="@drawable/rounded_card"
                 android:ems="10"
                 android:hint="Digite aqui..."
-                android:inputType="text"
+                android:inputType="number"
                 android:padding="15dp" />
         </LinearLayout>
 

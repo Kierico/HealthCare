@@ -363,7 +363,7 @@
                     android:id="@+id/textViewMetaPesoIdeal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Peso Ideal"
+                    android:text="Peso Desejado"
                     android:textColor="?attr/colorPrimary"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -417,7 +417,7 @@
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Você já alcançou"
+                android:text="Peso Ideal (IMC)"
                 android:textAlignment="center"
                 android:textColor="?attr/colorPrimary"
                 android:textSize="24sp"
@@ -433,32 +433,13 @@
                     android:id="@+id/textViewMetaContadorAlcanceMeta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0"
+                    android:text="0 kg"
                     android:textAlignment="center"
                     android:textColor="?attr/colorPrimary"
                     android:textSize="34sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/textView16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:text="%"
-                    android:textColor="?attr/colorPrimary"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
             </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="da sua meta"
-                android:textAlignment="center"
-                android:textColor="?attr/colorPrimary"
-                android:textSize="24sp"
-                android:textStyle="bold" />
 
         </LinearLayout>
     </LinearLayout>

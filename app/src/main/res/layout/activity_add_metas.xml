@@ -149,15 +149,30 @@
         android:orientation="vertical"
         android:padding="10dp">
 
-        <RadioButton
-            android:id="@+id/radioButtonGanharPesoAddMetas"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="@string/cadastrar_metas_radioButtonTitleGanhar"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+        <RadioGroup
+            android:id="@+id/objetivo"
+            android:layout_width="339dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/ganhar"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Ganhar Peso"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/perder"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Perder Peso"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
 
         <TableLayout
             android:layout_width="wrap_content"
@@ -177,7 +192,7 @@
                     android:background="@drawable/rounded_card"
                     android:ems="10"
                     android:hint="@string/cadastrar_metas_pesoAtual"
-                    android:inputType="text"
+                    android:inputType="number|numberDecimal"
                     android:padding="10dp"
                     android:textSize="16sp" />
 
@@ -190,7 +205,7 @@
                     android:background="@drawable/rounded_card"
                     android:ems="10"
                     android:hint="@string/cadastrar_metas_desejado"
-                    android:inputType="text"
+                    android:inputType="number|numberDecimal"
                     android:padding="10dp"
                     android:textSize="16sp" />
             </TableRow>
@@ -207,7 +222,7 @@
                     android:background="@drawable/rounded_card"
                     android:ems="10"
                     android:hint="@string/cadastrar_metas_emQuantoTempo"
-                    android:inputType="text"
+                    android:inputType="number"
                     android:padding="10dp"
                     android:textSize="16sp" />
 
@@ -219,110 +234,62 @@
                     android:background="@drawable/rounded_card"
                     android:ems="10"
                     android:hint="Altura"
-                    android:inputType="text"
+                    android:inputType="number|numberDecimal"
                     android:padding="10dp"
                     android:textSize="16sp" />
             </TableRow>
 
         </TableLayout>
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="10dp">
-
-        <RadioButton
-            android:id="@+id/radioButtonPerderPesoAddMetas"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/SexoText"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="@string/cadastrar_metas_radioButtonTitlePerder"
+            android:layout_gravity="center"
+            android:text="Qual é o seu Sexo?"
             android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
-        <TableLayout
-            android:layout_width="wrap_content"
+        <RadioGroup
+            android:id="@+id/sexo"
+            android:layout_width="339dp"
             android:layout_height="match_parent"
-            android:padding="10dp">
+            android:layout_gravity="center"
+            android:orientation="horizontal">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            <RadioButton
+                android:id="@+id/masculino"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:text="Masculino"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-                <EditText
-                    android:id="@+id/editTextPesoAtualPerderPesoAddMetas"
-                    android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/rounded_card"
-                    android:ems="10"
-                    android:hint="@string/cadastrar_metas_pesoAtual"
-                    android:inputType="text"
-                    android:padding="10dp"
-                    android:textSize="16sp" />
+            <RadioButton
+                android:id="@+id/feminino"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Feminino"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-                <EditText
-                    android:id="@+id/editTextPesoDesejadoPerderPesoAddMetas"
-                    android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/rounded_card"
-                    android:ems="10"
-                    android:hint="@string/cadastrar_metas_desejado"
-                    android:inputType="text"
-                    android:padding="10dp"
-                    android:textSize="16sp" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <EditText
-                    android:id="@+id/editTextQuantoTempoPerderPesoAddMetas"
-                    android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:background="@drawable/rounded_card"
-                    android:ems="10"
-                    android:hint="@string/cadastrar_metas_emQuantoTempo"
-                    android:inputType="text"
-                    android:padding="10dp"
-                    android:textSize="16sp" />
-
-                <EditText
-                    android:id="@+id/editTextMetaPerderAltura"
-                    android:layout_width="170dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:background="@drawable/rounded_card"
-                    android:ems="10"
-                    android:hint="Altura"
-                    android:inputType="text"
-                    android:padding="10dp"
-                    android:textSize="16sp" />
-
-            </TableRow>
-
-        </TableLayout>
+        </RadioGroup>
     </LinearLayout>
+
 
     <Button
         android:id="@+id/buttonAvancarAddMetas"
         android:layout_width="wrap_content"
         android:layout_height="55dp"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="80dp"
         android:minWidth="210dip"
         android:text="@string/cadastrar_metas_ButtonAvancar"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:backgroundTint="@color/pinklight" />
+        app:backgroundTint="@color/pinklight"
+        />
 
 </LinearLayout>
